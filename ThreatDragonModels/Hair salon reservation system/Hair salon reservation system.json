@@ -1,0 +1,28 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-09-28",
+  "summary": {
+    "title": "Hair salon reservation system",
+    "owner": "Kerttu Saarinen",
+    "description": "a Web based reservation system for reserving hair salon appointments. Users use the system to make, view and cancel appointments. The frontend communicates with a backend server, which stores customer and appointment information. ",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Hair Salon Reservation System Architecture",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "TA",
+    "threatTop": 0
+  }
+}
