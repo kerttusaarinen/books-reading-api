@@ -55,7 +55,7 @@
           {
             "position": {
               "x": 400,
-              "y": 40
+              "y": 30.000000000000142
             },
             "size": {
               "width": 130,
@@ -63,7 +63,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Web Applivcation"
+                "text": "Web Application"
               },
               "body": {
                 "stroke": "#333333",
@@ -159,7 +159,7 @@
             "id": "9cfeb373-e695-4cd9-a63f-9cccd2886b67",
             "data": {
               "type": "tm.Process",
-              "name": "Web Applivcation",
+              "name": "Web Application",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -169,7 +169,15 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -281,7 +289,12 @@
               "cell": "40655318-9099-4a87-98e8-beaa05a74c7e",
               "port": "03557f0b-de30-475a-8d27-32fce29c5e89"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 465,
+                "y": 250
+              }
+            ]
           },
           {
             "position": {
@@ -548,6 +561,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -631,7 +645,6 @@
               ]
             },
             "id": "b896d84e-5e10-48ea-83e3-0f4a267170b7",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
@@ -649,6 +662,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "TA",
-    "threatTop": 2
+    "threatTop": 4
   }
 }
