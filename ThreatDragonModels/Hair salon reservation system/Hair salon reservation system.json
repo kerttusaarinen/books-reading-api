@@ -732,8 +732,8 @@
               "y": 80
             },
             "target": {
-              "x": 340,
-              "y": 170
+              "cell": "9cfeb373-e695-4cd9-a63f-9cccd2886b67",
+              "port": "bff9de37-c952-4c6f-9c1b-809a05355a29"
             },
             "vertices": [
               {
