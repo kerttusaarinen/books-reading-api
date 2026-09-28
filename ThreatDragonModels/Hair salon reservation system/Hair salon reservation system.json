@@ -237,12 +237,25 @@
                   "new": false,
                   "number": 8,
                   "score": ""
+                },
+                {
+                  "id": "6b3a7dbf-4d50-46e2-a86f-91ebea7429ea",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "unauthorised access",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
                 }
               ],
               "trustBoundaryIds": [],
               "threatFrequency": {
                 "tampering": 1,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 1
               }
             },
@@ -325,19 +338,9 @@
             "vertices": [
               {
                 "x": 465,
-                "y": 250
+                "y": 300
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -765,7 +768,6 @@
               "cell": "9cfeb373-e695-4cd9-a63f-9cccd2886b67",
               "port": "bff9de37-c952-4c6f-9c1b-809a05355a29"
             },
-            "vertices": [],
             "tools": {
               "items": [
                 "boundary",
@@ -925,13 +927,14 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": []
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "TA",
-    "threatTop": 10
+    "threatTop": 11
   }
 }
